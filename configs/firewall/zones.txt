@@ -1,0 +1,9 @@
+firewall-cmd --get-active-zones
+
+Expected:
+
+public
+  interfaces: ens33
+
+internal
+  interfaces: ens34
