@@ -1,0 +1,14 @@
+# firewalld status
+systemctl status firewalld
+
+# default zone
+firewall-cmd --get-default-zone
+
+# active zones
+firewall-cmd --get-active-zones
+
+# full config
+firewall-cmd --list-all
+
+# rich rules
+firewall-cmd --list-rich-rules
