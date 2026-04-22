@@ -1,0 +1,2 @@
+# tcpdump ssh
+tcpdump -i ens33 port 22 -c 10
