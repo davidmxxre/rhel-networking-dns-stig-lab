@@ -1,0 +1,8 @@
+# ip a
+ip a
+
+# ip route
+ip route
+
+# nmcli device status
+nmcli device status
