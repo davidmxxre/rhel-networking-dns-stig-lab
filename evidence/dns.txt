@@ -1,0 +1,14 @@
+# resolver config
+cat /etc/resolv.conf
+
+# dnsmasq status
+systemctl status dnsmasq
+
+# listening ports
+ss -tuln | grep :53
+
+# resolution test
+dig @127.0.0.1 app.internal.local
+
+# system resolver test
+getent hosts app.internal.local
