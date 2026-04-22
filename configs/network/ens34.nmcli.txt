@@ -1,0 +1,6 @@
+nmcli con mod ens34 ipv4.addresses 172.16.0.20/24
+ncmli con mod ens34 ipv4.gateway 172.16.0.1
+nmcli con mod ens34 ipv4.method manual
+nmcli con mod ens34 ipv4.dns 127.0.0.1
+ncmli con mod ens34 ipv4.ignore-auto-dns yes
+nmcli con mod ens34 connection.zone internal
